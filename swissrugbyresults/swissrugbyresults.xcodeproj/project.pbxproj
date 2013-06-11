@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D039200617660A3500703178 /* suisserugbyresults.png in Resources */ = {isa = PBXBuildFile; fileRef = D039200517660A3500703178 /* suisserugbyresults.png */; };
+		D039200817660A7C00703178 /* suisserugbyresults@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D039200717660A7C00703178 /* suisserugbyresults@2x.png */; };
+		D05E280B17660CDD0017B7EE /* hermancerrc.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280117660CDD0017B7EE /* hermancerrc.png */; };
+		D05E280C17660CDD0017B7EE /* rcyverdon.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280217660CDD0017B7EE /* rcyverdon.png */; };
+		D05E280D17660CDD0017B7EE /* rfcbasel.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280317660CDD0017B7EE /* rfcbasel.png */; };
+		D05E280E17660CDD0017B7EE /* lausanneuc.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280417660CDD0017B7EE /* lausanneuc.png */; };
+		D05E280F17660CDD0017B7EE /* stadelausanne.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280517660CDD0017B7EE /* stadelausanne.png */; };
+		D05E281017660CDD0017B7EE /* rcgeneve.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280617660CDD0017B7EE /* rcgeneve.png */; };
+		D05E281117660CDD0017B7EE /* rccmsg.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280717660CDD0017B7EE /* rccmsg.png */; };
+		D05E281217660CDD0017B7EE /* gczuerich.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280817660CDD0017B7EE /* gczuerich.png */; };
+		D05E281317660CDD0017B7EE /* nyonrc.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280917660CDD0017B7EE /* nyonrc.png */; };
+		D05E281417660CDD0017B7EE /* rcavusy.png in Resources */ = {isa = PBXBuildFile; fileRef = D05E280A17660CDD0017B7EE /* rcavusy.png */; };
+		D0E86CBA17651A09008887EE /* cell_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB117651A09008887EE /* cell_bottom.png */; };
+		D0E86CBB17651A09008887EE /* cell_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB217651A09008887EE /* cell_bottom@2x.png */; };
+		D0E86CBC17651A09008887EE /* cell_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB317651A09008887EE /* cell_middle.png */; };
+		D0E86CBD17651A09008887EE /* cell_middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB417651A09008887EE /* cell_middle@2x.png */; };
+		D0E86CBE17651A09008887EE /* cell_top_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB517651A09008887EE /* cell_top_tile.png */; };
+		D0E86CBF17651A09008887EE /* cell_top.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB617651A09008887EE /* cell_top.png */; };
+		D0E86CC017651A09008887EE /* cell_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB717651A09008887EE /* cell_top@2x.png */; };
+		D0E86CC117651A09008887EE /* common_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB817651A09008887EE /* common_bg.png */; };
+		D0E86CC217651A09008887EE /* common_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CB917651A09008887EE /* common_bg@2x.png */; };
+		D0E86CF71765C6B3008887EE /* results.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CF51765C6B3008887EE /* results.png */; };
+		D0E86CF81765C6B3008887EE /* results@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CF61765C6B3008887EE /* results@2x.png */; };
+		D0E86CFB1765C779008887EE /* team.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CF91765C779008887EE /* team.png */; };
+		D0E86CFC1765C779008887EE /* team@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CFA1765C779008887EE /* team@2x.png */; };
+		D0E86CFF1765C7C8008887EE /* standings.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CFD1765C7C7008887EE /* standings.png */; };
+		D0E86D001765C7C8008887EE /* standings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86CFE1765C7C7008887EE /* standings@2x.png */; };
+		D0E86D031765CAA7008887EE /* srrTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E86D021765CAA7008887EE /* srrTeamsViewController.m */; };
+		D0E86D0A1765D438008887EE /* srrResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E86D091765D438008887EE /* srrResultsViewController.m */; };
+		D0E86D111765D7BC008887EE /* fixtures.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86D0F1765D7BC008887EE /* fixtures.png */; };
+		D0E86D121765D7BC008887EE /* fixtures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86D101765D7BC008887EE /* fixtures@2x.png */; };
+		D0E86D151765D9E4008887EE /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86D131765D9E4008887EE /* navbar_bg.png */; };
+		D0E86D161765D9E4008887EE /* navbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E86D141765D9E4008887EE /* navbar_bg@2x.png */; };
+		D0E86D191765FE17008887EE /* srrChooseLeagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E86D181765FE17008887EE /* srrChooseLeagueViewController.m */; };
+		D0EBD1D817640368002D6146 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EBD1D717640368002D6146 /* UIKit.framework */; };
+		D0EBD1DA17640368002D6146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EBD1D917640368002D6146 /* Foundation.framework */; };
+		D0EBD1DC17640368002D6146 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EBD1DB17640368002D6146 /* CoreGraphics.framework */; };
+		D0EBD1E217640368002D6146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0EBD1E017640368002D6146 /* InfoPlist.strings */; };
+		D0EBD1E417640368002D6146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBD1E317640368002D6146 /* main.m */; };
+		D0EBD1E817640368002D6146 /* srrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBD1E717640368002D6146 /* srrAppDelegate.m */; };
+		D0EBD1EA17640368002D6146 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EBD1E917640368002D6146 /* Default.png */; };
+		D0EBD1EC17640368002D6146 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EBD1EB17640368002D6146 /* Default@2x.png */; };
+		D0EBD1EE17640368002D6146 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EBD1ED17640368002D6146 /* Default-568h@2x.png */; };
+		D0EBD1F117640368002D6146 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EBD1EF17640368002D6146 /* MainStoryboard_iPhone.storyboard */; };
+		D0EBD1F417640368002D6146 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EBD1F217640368002D6146 /* MainStoryboard_iPad.storyboard */; };
+		D0EBD1F717640368002D6146 /* srrFixturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBD1F617640368002D6146 /* srrFixturesViewController.m */; };
+		D0EBD1FE17640368002D6146 /* srrStandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBD1FD17640368002D6146 /* srrStandingsViewController.m */; };
+		D0EBD20A17640368002D6146 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EBD20917640368002D6146 /* SenTestingKit.framework */; };
+		D0EBD20B17640368002D6146 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EBD1D717640368002D6146 /* UIKit.framework */; };
+		D0EBD20C17640368002D6146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EBD1D917640368002D6146 /* Foundation.framework */; };
+		D0EBD21417640368002D6146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0EBD21217640368002D6146 /* InfoPlist.strings */; };
+		D0EBD21717640368002D6146 /* swissrugbyresultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EBD21617640368002D6146 /* swissrugbyresultsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0EBD20D17640368002D6146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EBD1CC17640368002D6146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EBD1D317640368002D6146;
+			remoteInfo = swissrugbyresults;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D039200517660A3500703178 /* suisserugbyresults.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suisserugbyresults.png; sourceTree = "<group>"; };
+		D039200717660A7C00703178 /* suisserugbyresults@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suisserugbyresults@2x.png"; sourceTree = "<group>"; };
+		D05E280117660CDD0017B7EE /* hermancerrc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hermancerrc.png; sourceTree = "<group>"; };
+		D05E280217660CDD0017B7EE /* rcyverdon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rcyverdon.png; sourceTree = "<group>"; };
+		D05E280317660CDD0017B7EE /* rfcbasel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rfcbasel.png; sourceTree = "<group>"; };
+		D05E280417660CDD0017B7EE /* lausanneuc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lausanneuc.png; sourceTree = "<group>"; };
+		D05E280517660CDD0017B7EE /* stadelausanne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stadelausanne.png; sourceTree = "<group>"; };
+		D05E280617660CDD0017B7EE /* rcgeneve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rcgeneve.png; sourceTree = "<group>"; };
+		D05E280717660CDD0017B7EE /* rccmsg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rccmsg.png; sourceTree = "<group>"; };
+		D05E280817660CDD0017B7EE /* gczuerich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gczuerich.png; sourceTree = "<group>"; };
+		D05E280917660CDD0017B7EE /* nyonrc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyonrc.png; sourceTree = "<group>"; };
+		D05E280A17660CDD0017B7EE /* rcavusy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rcavusy.png; sourceTree = "<group>"; };
+		D0E86CB117651A09008887EE /* cell_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_bottom.png; path = Resources/Images/Backgrounds/cell_bottom.png; sourceTree = "<group>"; };
+		D0E86CB217651A09008887EE /* cell_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cell_bottom@2x.png"; path = "Resources/Images/Backgrounds/cell_bottom@2x.png"; sourceTree = "<group>"; };
+		D0E86CB317651A09008887EE /* cell_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_middle.png; path = Resources/Images/Backgrounds/cell_middle.png; sourceTree = "<group>"; };
+		D0E86CB417651A09008887EE /* cell_middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cell_middle@2x.png"; path = "Resources/Images/Backgrounds/cell_middle@2x.png"; sourceTree = "<group>"; };
+		D0E86CB517651A09008887EE /* cell_top_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_top_tile.png; path = Resources/Images/Backgrounds/cell_top_tile.png; sourceTree = "<group>"; };
+		D0E86CB617651A09008887EE /* cell_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_top.png; path = Resources/Images/Backgrounds/cell_top.png; sourceTree = "<group>"; };
+		D0E86CB717651A09008887EE /* cell_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cell_top@2x.png"; path = "Resources/Images/Backgrounds/cell_top@2x.png"; sourceTree = "<group>"; };
+		D0E86CB817651A09008887EE /* common_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = common_bg.png; path = Resources/Images/Backgrounds/common_bg.png; sourceTree = "<group>"; };
+		D0E86CB917651A09008887EE /* common_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "common_bg@2x.png"; path = "Resources/Images/Backgrounds/common_bg@2x.png"; sourceTree = "<group>"; };
+		D0E86CF51765C6B3008887EE /* results.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = results.png; sourceTree = "<group>"; };
+		D0E86CF61765C6B3008887EE /* results@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "results@2x.png"; sourceTree = "<group>"; };
+		D0E86CF91765C779008887EE /* team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team.png; sourceTree = "<group>"; };
+		D0E86CFA1765C779008887EE /* team@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "team@2x.png"; sourceTree = "<group>"; };
+		D0E86CFD1765C7C7008887EE /* standings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = standings.png; sourceTree = "<group>"; };
+		D0E86CFE1765C7C7008887EE /* standings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "standings@2x.png"; sourceTree = "<group>"; };
+		D0E86D011765CAA7008887EE /* srrTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srrTeamsViewController.h; sourceTree = "<group>"; };
+		D0E86D021765CAA7008887EE /* srrTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = srrTeamsViewController.m; sourceTree = "<group>"; };
+		D0E86D081765D437008887EE /* srrResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srrResultsViewController.h; sourceTree = "<group>"; };
+		D0E86D091765D438008887EE /* srrResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = srrResultsViewController.m; sourceTree = "<group>"; };
+		D0E86D0F1765D7BC008887EE /* fixtures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fixtures.png; sourceTree = "<group>"; };
+		D0E86D101765D7BC008887EE /* fixtures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fixtures@2x.png"; sourceTree = "<group>"; };
+		D0E86D131765D9E4008887EE /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg.png; sourceTree = "<group>"; };
+		D0E86D141765D9E4008887EE /* navbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_bg@2x.png"; sourceTree = "<group>"; };
+		D0E86D171765FE17008887EE /* srrChooseLeagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srrChooseLeagueViewController.h; sourceTree = "<group>"; };
+		D0E86D181765FE17008887EE /* srrChooseLeagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = srrChooseLeagueViewController.m; sourceTree = "<group>"; };
+		D0EBD1D417640368002D6146 /* Swiss Rugby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiss Rugby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EBD1D717640368002D6146 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0EBD1D917640368002D6146 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0EBD1DB17640368002D6146 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0EBD1DF17640368002D6146 /* swissrugbyresults-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "swissrugbyresults-Info.plist"; sourceTree = "<group>"; };
+		D0EBD1E117640368002D6146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0EBD1E317640368002D6146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0EBD1E517640368002D6146 /* swissrugbyresults-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swissrugbyresults-Prefix.pch"; sourceTree = "<group>"; };
+		D0EBD1E617640368002D6146 /* srrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srrAppDelegate.h; sourceTree = "<group>"; };
+		D0EBD1E717640368002D6146 /* srrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = srrAppDelegate.m; sourceTree = "<group>"; };
+		D0EBD1E917640368002D6146 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0EBD1EB17640368002D6146 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0EBD1ED17640368002D6146 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0EBD1F017640368002D6146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D0EBD1F317640368002D6146 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D0EBD1F517640368002D6146 /* srrFixturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srrFixturesViewController.h; sourceTree = "<group>"; };
+		D0EBD1F617640368002D6146 /* srrFixturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = srrFixturesViewController.m; sourceTree = "<group>"; };
+		D0EBD1FC17640368002D6146 /* srrStandingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srrStandingsViewController.h; sourceTree = "<group>"; };
+		D0EBD1FD17640368002D6146 /* srrStandingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = srrStandingsViewController.m; sourceTree = "<group>"; };
+		D0EBD20817640368002D6146 /* swissrugbyresultsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swissrugbyresultsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EBD20917640368002D6146 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0EBD21117640368002D6146 /* swissrugbyresultsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "swissrugbyresultsTests-Info.plist"; sourceTree = "<group>"; };
+		D0EBD21317640368002D6146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0EBD21517640368002D6146 /* swissrugbyresultsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swissrugbyresultsTests.h; sourceTree = "<group>"; };
+		D0EBD21617640368002D6146 /* swissrugbyresultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swissrugbyresultsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0EBD1D117640368002D6146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EBD1D817640368002D6146 /* UIKit.framework in Frameworks */,
+				D0EBD1DA17640368002D6146 /* Foundation.framework in Frameworks */,
+				D0EBD1DC17640368002D6146 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EBD20417640368002D6146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EBD20A17640368002D6146 /* SenTestingKit.framework in Frameworks */,
+				D0EBD20B17640368002D6146 /* UIKit.framework in Frameworks */,
+				D0EBD20C17640368002D6146 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04B8E5C1764080300CC8A4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D04B8E5D1764081A00CC8A4F /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D04B8E5D1764081A00CC8A4F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0E86CC517651DBA008887EE /* backgrounds */,
+				D0E86CC417651DB0008887EE /* tabicons */,
+				D0E86CC317651D3D008887EE /* teams */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D0E86CC317651D3D008887EE /* teams */ = {
+			isa = PBXGroup;
+			children = (
+				D05E280117660CDD0017B7EE /* hermancerrc.png */,
+				D05E280217660CDD0017B7EE /* rcyverdon.png */,
+				D05E280317660CDD0017B7EE /* rfcbasel.png */,
+				D05E280417660CDD0017B7EE /* lausanneuc.png */,
+				D05E280517660CDD0017B7EE /* stadelausanne.png */,
+				D05E280617660CDD0017B7EE /* rcgeneve.png */,
+				D05E280717660CDD0017B7EE /* rccmsg.png */,
+				D05E280817660CDD0017B7EE /* gczuerich.png */,
+				D05E280917660CDD0017B7EE /* nyonrc.png */,
+				D05E280A17660CDD0017B7EE /* rcavusy.png */,
+			);
+			name = teams;
+			sourceTree = "<group>";
+		};
+		D0E86CC417651DB0008887EE /* tabicons */ = {
+			isa = PBXGroup;
+			children = (
+				D0E86CF91765C779008887EE /* team.png */,
+				D0E86CFA1765C779008887EE /* team@2x.png */,
+				D0E86CFD1765C7C7008887EE /* standings.png */,
+				D0E86D0F1765D7BC008887EE /* fixtures.png */,
+				D0E86D101765D7BC008887EE /* fixtures@2x.png */,
+				D0E86CFE1765C7C7008887EE /* standings@2x.png */,
+				D0E86CF51765C6B3008887EE /* results.png */,
+				D0E86CF61765C6B3008887EE /* results@2x.png */,
+			);
+			name = tabicons;
+			sourceTree = "<group>";
+		};
+		D0E86CC517651DBA008887EE /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				D0E86CB117651A09008887EE /* cell_bottom.png */,
+				D0E86CB217651A09008887EE /* cell_bottom@2x.png */,
+				D0E86CB317651A09008887EE /* cell_middle.png */,
+				D0E86D131765D9E4008887EE /* navbar_bg.png */,
+				D0E86D141765D9E4008887EE /* navbar_bg@2x.png */,
+				D0E86CB417651A09008887EE /* cell_middle@2x.png */,
+				D0E86CB517651A09008887EE /* cell_top_tile.png */,
+				D0E86CB617651A09008887EE /* cell_top.png */,
+				D0E86CB717651A09008887EE /* cell_top@2x.png */,
+				D0E86CB817651A09008887EE /* common_bg.png */,
+				D0E86CB917651A09008887EE /* common_bg@2x.png */,
+			);
+			name = backgrounds;
+			sourceTree = "<group>";
+		};
+		D0EBD1CB17640368002D6146 = {
+			isa = PBXGroup;
+			children = (
+				D039200717660A7C00703178 /* suisserugbyresults@2x.png */,
+				D039200517660A3500703178 /* suisserugbyresults.png */,
+				D0EBD1DD17640368002D6146 /* swissrugbyresults */,
+				D0EBD20F17640368002D6146 /* swissrugbyresultsTests */,
+				D0EBD1D617640368002D6146 /* Frameworks */,
+				D0EBD1D517640368002D6146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EBD1D517640368002D6146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBD1D417640368002D6146 /* Swiss Rugby.app */,
+				D0EBD20817640368002D6146 /* swissrugbyresultsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0EBD1D617640368002D6146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBD1D717640368002D6146 /* UIKit.framework */,
+				D0EBD1D917640368002D6146 /* Foundation.framework */,
+				D0EBD1DB17640368002D6146 /* CoreGraphics.framework */,
+				D0EBD20917640368002D6146 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0EBD1DD17640368002D6146 /* swissrugbyresults */ = {
+			isa = PBXGroup;
+			children = (
+				D04B8E5C1764080300CC8A4F /* Resources */,
+				D0EBD22217640555002D6146 /* Controller */,
+				D0EBD2211764054D002D6146 /* View */,
+				D0EBD2201764053E002D6146 /* Model */,
+				D0EBD1E617640368002D6146 /* srrAppDelegate.h */,
+				D0EBD1E717640368002D6146 /* srrAppDelegate.m */,
+				D0EBD1EF17640368002D6146 /* MainStoryboard_iPhone.storyboard */,
+				D0EBD1F217640368002D6146 /* MainStoryboard_iPad.storyboard */,
+				D0EBD1DE17640368002D6146 /* Supporting Files */,
+			);
+			path = swissrugbyresults;
+			sourceTree = "<group>";
+		};
+		D0EBD1DE17640368002D6146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBD1DF17640368002D6146 /* swissrugbyresults-Info.plist */,
+				D0EBD1E017640368002D6146 /* InfoPlist.strings */,
+				D0EBD1E317640368002D6146 /* main.m */,
+				D0EBD1E517640368002D6146 /* swissrugbyresults-Prefix.pch */,
+				D0EBD1E917640368002D6146 /* Default.png */,
+				D0EBD1EB17640368002D6146 /* Default@2x.png */,
+				D0EBD1ED17640368002D6146 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0EBD20F17640368002D6146 /* swissrugbyresultsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBD21517640368002D6146 /* swissrugbyresultsTests.h */,
+				D0EBD21617640368002D6146 /* swissrugbyresultsTests.m */,
+				D0EBD21017640368002D6146 /* Supporting Files */,
+			);
+			path = swissrugbyresultsTests;
+			sourceTree = "<group>";
+		};
+		D0EBD21017640368002D6146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBD21117640368002D6146 /* swissrugbyresultsTests-Info.plist */,
+				D0EBD21217640368002D6146 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0EBD2201764053E002D6146 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D0EBD2211764054D002D6146 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D0EBD22217640555002D6146 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBD1F517640368002D6146 /* srrFixturesViewController.h */,
+				D0EBD1F617640368002D6146 /* srrFixturesViewController.m */,
+				D0EBD1FC17640368002D6146 /* srrStandingsViewController.h */,
+				D0EBD1FD17640368002D6146 /* srrStandingsViewController.m */,
+				D0E86D011765CAA7008887EE /* srrTeamsViewController.h */,
+				D0E86D021765CAA7008887EE /* srrTeamsViewController.m */,
+				D0E86D081765D437008887EE /* srrResultsViewController.h */,
+				D0E86D091765D438008887EE /* srrResultsViewController.m */,
+				D0E86D171765FE17008887EE /* srrChooseLeagueViewController.h */,
+				D0E86D181765FE17008887EE /* srrChooseLeagueViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0EBD1D317640368002D6146 /* swissrugbyresults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EBD21A17640368002D6146 /* Build configuration list for PBXNativeTarget "swissrugbyresults" */;
+			buildPhases = (
+				D0EBD1D017640368002D6146 /* Sources */,
+				D0EBD1D117640368002D6146 /* Frameworks */,
+				D0EBD1D217640368002D6146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swissrugbyresults;
+			productName = swissrugbyresults;
+			productReference = D0EBD1D417640368002D6146 /* Swiss Rugby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0EBD20717640368002D6146 /* swissrugbyresultsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EBD21D17640368002D6146 /* Build configuration list for PBXNativeTarget "swissrugbyresultsTests" */;
+			buildPhases = (
+				D0EBD20317640368002D6146 /* Sources */,
+				D0EBD20417640368002D6146 /* Frameworks */,
+				D0EBD20517640368002D6146 /* Resources */,
+				D0EBD20617640368002D6146 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0EBD20E17640368002D6146 /* PBXTargetDependency */,
+			);
+			name = swissrugbyresultsTests;
+			productName = swissrugbyresultsTests;
+			productReference = D0EBD20817640368002D6146 /* swissrugbyresultsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0EBD1CC17640368002D6146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = srr;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tamtec.ch;
+			};
+			buildConfigurationList = D0EBD1CF17640368002D6146 /* Build configuration list for PBXProject "swissrugbyresults" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0EBD1CB17640368002D6146;
+			productRefGroup = D0EBD1D517640368002D6146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0EBD1D317640368002D6146 /* swissrugbyresults */,
+				D0EBD20717640368002D6146 /* swissrugbyresultsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0EBD1D217640368002D6146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EBD1E217640368002D6146 /* InfoPlist.strings in Resources */,
+				D0EBD1EA17640368002D6146 /* Default.png in Resources */,
+				D0EBD1EC17640368002D6146 /* Default@2x.png in Resources */,
+				D0EBD1EE17640368002D6146 /* Default-568h@2x.png in Resources */,
+				D0EBD1F117640368002D6146 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D0EBD1F417640368002D6146 /* MainStoryboard_iPad.storyboard in Resources */,
+				D0E86CBA17651A09008887EE /* cell_bottom.png in Resources */,
+				D0E86CBB17651A09008887EE /* cell_bottom@2x.png in Resources */,
+				D0E86CBC17651A09008887EE /* cell_middle.png in Resources */,
+				D0E86CBD17651A09008887EE /* cell_middle@2x.png in Resources */,
+				D0E86CBE17651A09008887EE /* cell_top_tile.png in Resources */,
+				D0E86CBF17651A09008887EE /* cell_top.png in Resources */,
+				D0E86CC017651A09008887EE /* cell_top@2x.png in Resources */,
+				D0E86CC117651A09008887EE /* common_bg.png in Resources */,
+				D0E86CC217651A09008887EE /* common_bg@2x.png in Resources */,
+				D0E86CF71765C6B3008887EE /* results.png in Resources */,
+				D0E86CF81765C6B3008887EE /* results@2x.png in Resources */,
+				D0E86CFB1765C779008887EE /* team.png in Resources */,
+				D0E86CFC1765C779008887EE /* team@2x.png in Resources */,
+				D0E86CFF1765C7C8008887EE /* standings.png in Resources */,
+				D0E86D001765C7C8008887EE /* standings@2x.png in Resources */,
+				D0E86D111765D7BC008887EE /* fixtures.png in Resources */,
+				D0E86D121765D7BC008887EE /* fixtures@2x.png in Resources */,
+				D0E86D151765D9E4008887EE /* navbar_bg.png in Resources */,
+				D0E86D161765D9E4008887EE /* navbar_bg@2x.png in Resources */,
+				D039200617660A3500703178 /* suisserugbyresults.png in Resources */,
+				D039200817660A7C00703178 /* suisserugbyresults@2x.png in Resources */,
+				D05E280B17660CDD0017B7EE /* hermancerrc.png in Resources */,
+				D05E280C17660CDD0017B7EE /* rcyverdon.png in Resources */,
+				D05E280D17660CDD0017B7EE /* rfcbasel.png in Resources */,
+				D05E280E17660CDD0017B7EE /* lausanneuc.png in Resources */,
+				D05E280F17660CDD0017B7EE /* stadelausanne.png in Resources */,
+				D05E281017660CDD0017B7EE /* rcgeneve.png in Resources */,
+				D05E281117660CDD0017B7EE /* rccmsg.png in Resources */,
+				D05E281217660CDD0017B7EE /* gczuerich.png in Resources */,
+				D05E281317660CDD0017B7EE /* nyonrc.png in Resources */,
+				D05E281417660CDD0017B7EE /* rcavusy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EBD20517640368002D6146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EBD21417640368002D6146 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0EBD20617640368002D6146 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0EBD1D017640368002D6146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EBD1E417640368002D6146 /* main.m in Sources */,
+				D0EBD1E817640368002D6146 /* srrAppDelegate.m in Sources */,
+				D0EBD1F717640368002D6146 /* srrFixturesViewController.m in Sources */,
+				D0EBD1FE17640368002D6146 /* srrStandingsViewController.m in Sources */,
+				D0E86D031765CAA7008887EE /* srrTeamsViewController.m in Sources */,
+				D0E86D0A1765D438008887EE /* srrResultsViewController.m in Sources */,
+				D0E86D191765FE17008887EE /* srrChooseLeagueViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EBD20317640368002D6146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EBD21717640368002D6146 /* swissrugbyresultsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0EBD20E17640368002D6146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0EBD1D317640368002D6146 /* swissrugbyresults */;
+			targetProxy = D0EBD20D17640368002D6146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0EBD1E017640368002D6146 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EBD1E117640368002D6146 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0EBD1EF17640368002D6146 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EBD1F017640368002D6146 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D0EBD1F217640368002D6146 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EBD1F317640368002D6146 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D0EBD21217640368002D6146 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EBD21317640368002D6146 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0EBD21817640368002D6146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0EBD21917640368002D6146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0EBD21B17640368002D6146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swissrugbyresults/swissrugbyresults-Prefix.pch";
+				INFOPLIST_FILE = "swissrugbyresults/swissrugbyresults-Info.plist";
+				PRODUCT_NAME = "Swiss Rugby";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0EBD21C17640368002D6146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swissrugbyresults/swissrugbyresults-Prefix.pch";
+				INFOPLIST_FILE = "swissrugbyresults/swissrugbyresults-Info.plist";
+				PRODUCT_NAME = "Swiss Rugby";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0EBD21E17640368002D6146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swissrugbyresults.app/swissrugbyresults";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swissrugbyresults/swissrugbyresults-Prefix.pch";
+				INFOPLIST_FILE = "swissrugbyresultsTests/swissrugbyresultsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0EBD21F17640368002D6146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swissrugbyresults.app/swissrugbyresults";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swissrugbyresults/swissrugbyresults-Prefix.pch";
+				INFOPLIST_FILE = "swissrugbyresultsTests/swissrugbyresultsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0EBD1CF17640368002D6146 /* Build configuration list for PBXProject "swissrugbyresults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EBD21817640368002D6146 /* Debug */,
+				D0EBD21917640368002D6146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EBD21A17640368002D6146 /* Build configuration list for PBXNativeTarget "swissrugbyresults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EBD21B17640368002D6146 /* Debug */,
+				D0EBD21C17640368002D6146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EBD21D17640368002D6146 /* Build configuration list for PBXNativeTarget "swissrugbyresultsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EBD21E17640368002D6146 /* Debug */,
+				D0EBD21F17640368002D6146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0EBD1CC17640368002D6146 /* Project object */;
+}
